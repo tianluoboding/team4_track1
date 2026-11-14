@@ -8,6 +8,15 @@ Click-based task generation and validation prototype for the Innodata Hackathon.
 - `track1_submission/`: the submission folder `team4_Track1/` and `team4_Track1.zip` (validated: `validate_submission.py` → 0 errors).
 - `organizer/`: Track 1 instructions, harness, worked example, general event brief, and presentation template. Track 2 materials are excluded.
 
+## Demo and presentation (quick links)
+
+- **Live demo script** (commands, timings, talking points): [`track1_submission/team4_Track1/DEMO.md`](track1_submission/team4_Track1/DEMO.md)
+- **Live demo run**: the commands and results (fresh task in 48 s; Harbor self-check `ALL SOUND`, gold 1.0 / nop 0.0) are in [`track1_submission/demo_live/`](track1_submission/demo_live/)
+- **Demo task as the AI agent sees it** (rendered): [open in browser](https://htmlpreview.github.io/?https://github.com/tianluoboding/team4_track1/blob/main/track1_submission/demo_live/demo_task.html)
+- **Presentation** (5 slides): [`track1_submission/team4_presentation_FINAL.pptx`](track1_submission/team4_presentation_FINAL.pptx)
+- **Submitted ZIP**: [`track1_submission/team4_Track1.zip`](track1_submission/team4_Track1.zip) (SHA-256 in `team4_Track1.zip.sha256`, `validate_submission.py` 0 errors)
+- **Experimental LLM generator + difficulty feedback loop** (not scored): [`track1_llm_factory/`](track1_llm_factory/)
+
 ## Current status
 
 The developer report states that all five tasks passed Harbor oracle/nop self-checks and the organizer submission validator reported zero errors and warnings. These historical results have not been rerun during this GitHub import.
